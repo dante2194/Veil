@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- three solid app tiles -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M35,29 H45 A6,6 0 0 1 51,35 V45 A6,6 0 0 1 45,51 H35 A6,6 0 0 1 29,45 V35 A6,6 0 0 1 35,29 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M63,29 H73 A6,6 0 0 1 79,35 V45 A6,6 0 0 1 73,51 H63 A6,6 0 0 1 57,45 V35 A6,6 0 0 1 63,29 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M35,57 H45 A6,6 0 0 1 51,63 V73 A6,6 0 0 1 45,79 H35 A6,6 0 0 1 29,73 V63 A6,6 0 0 1 35,57 Z" />
+    <!-- fourth tile: veiled (ghost outline) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M63,57 H73 A6,6 0 0 1 79,63 V73 A6,6 0 0 1 73,79 H63 A6,6 0 0 1 57,73 V63 A6,6 0 0 1 63,57 Z"
+        android:strokeColor="#B3FFFFFF"
+        android:strokeWidth="2" />
+    <!-- cyan slash through the hidden tile -->
+    <path
+        android:pathData="M59,77 L77,59"
+        android:strokeColor="#FF22D3EE"
+        android:strokeLineCap="round"
+        android:strokeWidth="3.2" />
+</vector>
